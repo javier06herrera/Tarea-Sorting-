@@ -48,10 +48,11 @@ public class MergeSort {
     	return nuevoArreglo;
     }
     public int[] partir(int[] arreglo2, int inicio, int fin) {
-    	int tamano = (fin - inicio) + 1;
+    	int tamano = (fin - inicio);
     	int[] partido = new int[tamano];
-    	for(int i = inicio; i <= fin; i++) {
-    		partido[i] = arreglo2[i];
+    	for(int i = 0; i < tamano; i++) {
+    		partido[i] = arreglo2[inicio];
+    		inicio++;
     	}
     	return partido;
     }

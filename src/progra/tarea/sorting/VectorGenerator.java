@@ -4,7 +4,7 @@ import java.util.Random;
 
 	public class VectorGenerator {
 
-		private int size = 10000;
+		private int size = 1000;
 		private int[] numbers = null;
 		private Random randomGenerator = null;
 		

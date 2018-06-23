@@ -14,14 +14,14 @@ public class InsertionSort {
 		}
 		return arreglo;
 	}
-	public int[] ordenar(int fin, int[] arreglo) {
-		int i = fin -1;
+	public int[] ordenar(int fina, int[] arreglo) {
+		int i = fina -1;
 		int tmp = 0;
-		while((arreglo[fin] < arreglo[i]) || (fin > 0)) {
+		while((i >= 0) && (arreglo[fina] < arreglo[i])) {
 			tmp = arreglo[i];
-			arreglo[i] = arreglo[fin];
-			arreglo[fin] = tmp;
-			fin--;
+			arreglo[i] = arreglo[fina];
+			arreglo[fina] = tmp;
+			fina--;
 			i--;
 		}
 		return arreglo;

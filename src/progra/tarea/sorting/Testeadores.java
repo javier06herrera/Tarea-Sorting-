@@ -9,10 +9,10 @@ public class Testeadores {
 	BubbleSort bubble = new BubbleSort();
 
 	public double Selection() {
-		long tiempo=0;
-		long startTime;
-		long stopTime;
-		long elapsedTime;
+		double tiempo=0;
+		double startTime;
+		double stopTime;
+		double elapsedTime;
 
 		for(int i=0;i<1000;i++) {
 			int[] vect = vecGen.generateRandomVector();
@@ -23,15 +23,15 @@ public class Testeadores {
 			tiempo+=elapsedTime;
 			
 		}
-		long promedio =tiempo/1000;
+		double promedio =tiempo/1000;
 		return promedio;
 	}
 	
 	public double QuickSort() {
-		long tiempo=0;
-		long startTime;
-		long stopTime;
-		long elapsedTime;
+		double tiempo=0;
+		double startTime;
+		double stopTime;
+		double elapsedTime;
 
 		for(int i=0;i<1000;i++) {
 			int[] vect = vecGen.generateRandomVector();
@@ -42,15 +42,15 @@ public class Testeadores {
 			tiempo+=elapsedTime;
 			
 		}
-		long promedio =tiempo/1000;
+		double promedio =tiempo/1000;
 		return promedio;
 	}
 	
 	public double BubbleSort() {
-		long tiempo=0;
-		long startTime;
-		long stopTime;
-		long elapsedTime;
+		double tiempo=0;
+		double startTime;
+		double stopTime;
+		double elapsedTime;
 
 		for(int i=0;i<1000;i++) {
 			int[] vect = vecGen.generateRandomVector();
@@ -61,15 +61,15 @@ public class Testeadores {
 			tiempo+=elapsedTime;
 			
 		}
-		long promedio =tiempo/1000;
+		double promedio =tiempo/1000;
 		return promedio;
 	}
 	
 	public double InsertionSort() {
-		long tiempo=0;
-		long startTime;
-		long stopTime;
-		long elapsedTime;
+		double tiempo=0;
+		double startTime;
+		double stopTime;
+		double elapsedTime;
 
 		for(int i=0;i<1000;i++) {
 			int[] vect = vecGen.generateRandomVector();
@@ -80,15 +80,15 @@ public class Testeadores {
 			tiempo+=elapsedTime;
 			
 		}
-		long promedio =tiempo/1000;
+		double promedio =tiempo/1000;
 		return promedio;
 	}
 	
 	public double MergeSort() {
-		long tiempo=0;
-		long startTime;
-		long stopTime;
-		long elapsedTime;
+		double tiempo=0;
+		double startTime;
+		double stopTime;
+		double elapsedTime;
 
 		for(int i=0;i<1000;i++) {
 			int[] vect = vecGen.generateRandomVector();
@@ -99,7 +99,7 @@ public class Testeadores {
 			tiempo+=elapsedTime;
 			
 		}
-		long promedio =tiempo/1000;
+		double promedio =tiempo/1000;
 		return promedio;
 	}
 }

@@ -2,7 +2,7 @@ package progra.tarea.sorting;
 
 public class ClaseCentral {
 
-	public void run() {	
+	public void run() {
 		Testeadores tester=new Testeadores();
 		double promedioS=tester.Selection();
 		double promedioQ=tester.QuickSort();

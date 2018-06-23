@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        ClaseCentral clase = new ClaseCentral();
-        clase.run();
+		 ClaseCentral clase = new ClaseCentral();
+		 clase.run(); 
 	}
 
 }
